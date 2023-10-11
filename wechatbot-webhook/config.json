@@ -1,0 +1,22 @@
+{
+  "name": "wechatbot-webhook",
+  "version": "v1.5.0",
+  "slug": "wechatbot-webhook",
+  "description": "wechatbot-webhook",
+  "url": "https://github.com/dscao/npc-hass-addons/blob/main/wechatbot-webhook",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "init": false,  
+  "ports": {
+    "3001/tcp": "3001"
+  },
+  "options": {
+    "recvd_msg_api": "",
+    "login_api_token": "abcdefg123"
+  },
+  "schema": {
+    "recvd_msg_api": "url?",
+    "login_api_token": "str?"
+  }
+}
