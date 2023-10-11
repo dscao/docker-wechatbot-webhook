@@ -1,0 +1,5 @@
+{
+  "name": "Home Assistant add-ons docker-wechatbot-webhook",
+  "url": "https://github.com/dscao/docker-wechatbot-webhook",
+  "maintainer": "dscao"
+}
